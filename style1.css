@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1 {
+     font-family: 'Zen Maru Gothic', serif;
+     font-family: 'Rampart One', sans-serif;
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 20px;
+}
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+p.btn-border {
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+}
+p.btn-border:hover {
+    color: #fff;
+    background: #000;
+}
